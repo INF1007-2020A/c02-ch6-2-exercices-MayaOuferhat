@@ -17,7 +17,7 @@ def dictionary_from_lists(keys, values):
 	return {}
 
 def get_greatest_values(dictionnary, num_values):
-	return []
+	return dict(zip(keys, values))
 
 def get_sum_values_from_key(dictionnaries, key):
 	return 0
